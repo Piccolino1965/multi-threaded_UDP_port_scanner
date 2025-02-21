@@ -7,7 +7,9 @@ How the Software Works
 Uses the socket module to send UDP packets to a host and check for responses.
 Logs results in a file called risultati_scansione_ScanUDP.txt.
 Utilizes simultaneous threads (ThreadPoolExecutor) to perform parallel scans over a wide range of ports, improving efficiency.
+
 Sends specific payloads to detect UDP services such as:
+
 DNS (port 53)
 SNMP (port 161)
 NTP (port 123)
@@ -34,6 +36,7 @@ Testing private networks to verify misconfigurations.
 Detecting hidden services or active backdoors in a system.
 
 Disclaimer
+
 This software is provided solely for educational and security auditing purposes. It is intended to help network administrators, security professionals, and researchers identify vulnerabilities and improve the security of their own systems.
 
 Unauthorized use of this software on networks or systems without explicit permission from the owner is strictly prohibited. Scanning or probing networks without consent may violate local laws, regulations, and organizational policies. The author and distributor of this software assume no liability for any misuse, legal consequences, or damages resulting from its use.
